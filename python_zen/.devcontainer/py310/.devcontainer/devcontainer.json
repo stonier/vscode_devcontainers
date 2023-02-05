@@ -1,0 +1,11 @@
+{
+    "name": "python-zen-310",
+
+    "image": "python:3.10.9-slim-bullseye",
+    "remoteEnv": {
+        "LOCALWSF": "${localWorkspaceFolder}",
+        "CONTAINERWSF": "${containerWorkspaceFolder}"
+    },
+    "workspaceMount": "source=${localWorkspaceFolder}/../..,target=/python-zen-310/myproject,type=bind",
+    "workspaceFolder": "/python-zen-310/myproject"
+}

@@ -1,0 +1,12 @@
+{
+    "name": "python-zen-38",
+
+    "image": "python:3.8.15-slim-bullseye",
+    "remoteEnv": {
+        "LOCALWSF": "${localWorkspaceFolder}",
+        "CONTAINERWSF": "${containerWorkspaceFolder}"
+    
+    },
+    "workspaceMount": "source=${localWorkspaceFolder},target=/python-zen-38,type=bind",
+    "workspaceFolder": "/python-zen-38"
+}
